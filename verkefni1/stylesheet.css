@@ -1,0 +1,33 @@
+body{
+background-color:pink;
+}
+
+.user-content:hover {
+	background-color: #75f8ff;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 30s; 
+    animation-name: example;
+    animation-duration: 30s;
+}
+
+
+@-webkit-keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
